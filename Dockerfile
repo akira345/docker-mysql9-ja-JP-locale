@@ -1,4 +1,4 @@
-FROM mysql:9
+FROM mysql:26
 
 # install and setting locale
 RUN microdnf update -y && \
